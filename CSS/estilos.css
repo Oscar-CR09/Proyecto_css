@@ -1,0 +1,194 @@
+/*subclases*/
+/*   font-family: 'Roboto',sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Sofia&effect=shadow-multiple|font-effect-fire-animation|font-effect-neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&font-effect-fire-animation&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+p.centrar{
+    color: crimson;
+    text-align: center;
+}
+.punteado{
+    border-style: dotted ; /*borde punteado*/
+    border-width: 10px 5px 2px 1px;
+    border-color: crimson hotpink gold lime;
+}
+.discontinuo{
+    border-style: dashed;
+    border-width: thick;
+    border-color: hsla(203, 39%, 5%, .5);
+}
+.solido{
+    border: 10px solid red;
+    border-width: 10px ;
+    border-radius: 20px 0px 10px 0px;
+}
+.doble {
+    border: 5px double;
+}
+.surco{
+    border: 10px groove;
+
+}
+.cresta{
+    border: 10px ridge;
+}
+.recuadro{
+    border: 10px inset;
+}
+.caja1{
+    padding: 10px 35px; /*t=sup-r=der-u-L=Izq*/
+    border: 10px solid #0e0d0d;
+    margin: 30px 0;
+    background-color: #51be2d;
+    max-width: 300px;
+    /*max-height: 3000px;*/
+    outline-offset: 10px ;
+    outline: 15px solid #a8dadc;
+    box-sizing: border-box; /* para no pasarnos de ancho */
+
+}
+.caja2 {
+    padding: 10px 35px;
+    /*t=sup-r=der-u-L=Izq*/
+    border: 10px solid #0e0d0d;
+    margin: 20px 0;
+    background-color: #51be2d;
+    max-width: 300px;
+    /*max-height: 3000px;*/
+    outline-offset: 10px;
+    outline: 15px solid #a8dadc;
+    box-sizing: border-box;
+    /* para no pasarnos de ancho */
+
+}
+.caja{
+    padding: 10px;
+    color: white;
+    width: 40%;
+    height: 80px;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 15px;
+    float: left;
+    border-radius: 15px;
+
+
+}
+.rojo{
+    background-color: crimson;
+
+}
+.rosa{
+    background-color: deeppink;
+}
+.rgb{
+    background-color: rgb(131, 56, 236);
+}
+.rgba{
+    background-color: rgba(131, 56, 236, .5);
+}
+.hexadecimal{
+    background-color: #0091ad;
+}
+.hexa_transparencia{
+    background-color: #0090ad88;
+}
+.hsl{
+    background-color: hsl(210, 100%, 56%);
+}
+.hsla{
+    background-color: hsla(190, 100%, 34%,.5);
+}
+
+body{
+    background-color: dodgerblue;
+    background-image: url("/img/Anime\ Wallpaper\ Nightcore\ -\ Cant\ Hold\ Us\ [HQ].jpg");
+    background-repeat: repeat-x;
+    background-position: right top;
+    background-attachment: fixed ;
+}
+h1 {
+    text-align: center;
+    color: #ef476f;
+    background-color: beige;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    text-decoration: overline underline;
+    font-family:'Sofia', cursive;;
+
+}
+
+.caja3{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    height: 80px;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+    float: left;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+.texto{
+    text-align: justify;
+    /*direction: rtl;*/
+    text-decoration: none;
+    text-indent: 30px;
+    line-height: 1.5;
+    white-space: normal;
+    text-shadow: 1px 1px 2px #ced4da;
+
+}
+.caja.serif{
+    background-color: #5a189a;
+}
+.fuente_times{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-weight: normal;
+    font-size:large;
+    font-variant: normal;
+}
+.fuente_george{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size:20px;
+    font-variant: normal;
+    font-size: 1.25em;/*16px/16= 1 em*/
+}
+.sans_serif{
+    background-color: #00b4d8;
+    font-style: oblique;
+}
+.fuente_arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5vw;/*view width (viewport) 1vw = 1%*/
+}
+.fuente_curiernew{
+    font-family: 'Courier New', Courier, monospace;
+}
+.fuente_roboto{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: 15px;
+}
+
+div{
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+    float: left;
+}
+.icono_azul{
+    font-size: 2.5m; color: cornflowerblue;
+}
